@@ -1,0 +1,19 @@
+name: ZZScript
+version: '1.0.0'
+main: com.zzsmp.zzscript.ZZScript
+api-version: '1.20'
+author: Z-Z SMP
+description: Z-Z SMP için yönetici paneli - oyuncu bilgisi, ban/kick, ekonomi ve daha fazlası.
+softdepend: [Vault, Essentials]
+
+commands:
+  zzscript:
+    aliases: [zz, panel, yonetimpaneli]
+    description: Yönetici panelini açar.
+    permission: zzscript.admin
+    usage: /<command>
+
+permissions:
+  zzscript.admin:
+    description: Yönetici panelini kullanma izni.
+    default: op
